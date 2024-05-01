@@ -41,3 +41,6 @@ Esse dataset contém imagens de 5 raças de cães que já existiam no outro data
 Quando eu fiz a união desses dois conjuntos de dados eu consegui 15 raças de cães, com um total de 2649 imagens. Ao longo do projeto, em busca de melhores resultados
 surgiu a necessidade de se adcionar mais imagens. Então, com ajuda de uma extensão de download do Google foram adicionadas mais 2686 imagens novas no dataset, e uma nova raça de cão.
 O dataset depois dessas alterações ficou com 16 raças de cães e 5335 imagens no total.
+
+# Treinamento do modelo 
+No primeiro teste, foi utilizado a primeira versão do dataset que contava com 15 raças de cães e com um total de 2649 imagens.
