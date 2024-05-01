@@ -27,4 +27,14 @@ O modelo é treinado com uma base de dados que compreende 16 raças distintas de
 # Montagem do dataset
 Inicialmente a composição do dataset se resumia a união de dois conjuntos de dados disponibilizados no Kaggle.
 
-O primeiro deles é o "[23 Pet Breeds Image Classification](https://www.kaggle.com/datasets/aseemdandgaval/23-pet-breeds-image-classification)."
+O primeiro deles é o "[23 Pet Breeds Image Classification](https://www.kaggle.com/datasets/aseemdandgaval/23-pet-breeds-image-classification)":
+
+![image](https://github.com/VitorEduardoLimaKenor/Dog-Breeds-Classifier/assets/139798373/a915908a-e59f-4f47-891c-26f918077090)
+
+Esse dataset contém imagens de cães e gatos, são 15 raças de cães e 8 raças de gatos. Cada uma das classes possui 170 imagens.
+
+Pegando somente as imagens de cães desse conjunto eu mesclei ele com o segundo dataset chamado "[Dog's Breed Dataset](https://www.kaggle.com/datasets/aseemdandgaval/23-pet-breeds-image-classification)": 
+
+![image](https://github.com/VitorEduardoLimaKenor/Dog-Breeds-Classifier/assets/139798373/94d92606-38a5-405e-b6be-79eacc93b5f5)
+
+Esse dataset contém imagens de 5 raças de cães que já existiam no outro dataset, portanto serviram para aumentar o número de imagens dessas raças 
