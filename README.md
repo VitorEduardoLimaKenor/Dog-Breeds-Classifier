@@ -37,4 +37,7 @@ Pegando somente as imagens de cães desse conjunto eu mesclei ele com o segundo 
 
 ![image](https://github.com/VitorEduardoLimaKenor/Dog-Breeds-Classifier/assets/139798373/94d92606-38a5-405e-b6be-79eacc93b5f5)
 
-Esse dataset contém imagens de 5 raças de cães que já existiam no outro dataset, portanto serviram para aumentar o número de imagens dessas raças 
+Esse dataset contém imagens de 5 raças de cães que já existiam no outro dataset, portanto serviram para aumentar o número de imagens dessas raças.
+Quando eu fiz a união desses dois conjuntos de dados eu consegui 15 raças de cães, com um total de 2649 imagens. Ao longo do projeto, em busca de melhores resultados
+surgiu a necessidade de se adcionar mais imagens. Então, com ajuda de uma extensão de download do Google foram adicionadas mais 2686 imagens novas no dataset, e uma nova raça de cão.
+O dataset depois dessas alterações ficou com 16 raças de cães e 5335 imagens no total.
