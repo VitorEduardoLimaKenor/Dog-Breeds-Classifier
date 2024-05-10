@@ -40,7 +40,22 @@ Pegando somente as imagens de cães desse conjunto eu mesclei ele com o segundo 
 Esse dataset contém imagens de 5 raças de cães que já existiam no outro dataset, portanto serviram para aumentar o número de imagens dessas raças.
 Quando eu fiz a união desses dois conjuntos de dados eu consegui 15 raças de cães, com um total de 2649 imagens. Ao longo do projeto, em busca de melhores resultados
 surgiu a necessidade de se adcionar mais imagens. Então, com ajuda de uma extensão de download do Google foram adicionadas mais 2386 imagens novas no dataset, e uma nova raça de cão.
-O dataset depois dessas alterações ficou com 16 raças de cães e 5035 imagens no total.
+O dataset depois dessas alterações finalizou com `16 raças de cães e 5035 imagens no total`.
 
 # Treinamento do modelo 
-No primeiro teste, foi utilizado a primeira versão do dataset que contava com 15 raças de cães e com um total de 2649 imagens.
+No `primeiro teste`, foi utilizado a primeira versão do dataset que contava com `15 raças de cães e com um total de 2649 imagens`. 
+Ao utilizar uma função do TensorFlow para criar um conjunto de dados de imagens a partir do diretório do dataset, as imagens já 
+são redimensionadas e separadas em lotes. Nessa primeira etapa o único pré processamento das imagens foi a normalização. Depois
+da normalização o conjunto de dados foi separado em treinamento, validação e teste. Por fim, ao utilizar transferência de aprendizado
+com o modelo `InceptionV3` o resultado obtido foi de `99% de precisão no conjunto de treinamento, 97% em validação e 94% em teste`.
+Matriz de confusão:
+
+![image](https://github.com/VitorEduardoLimaKenor/Dog-Breeds-Classifier/assets/139798373/163a3476-d3a5-4a65-afdc-dc6966dc648a)
+
+
+
+
+
+
+
+
