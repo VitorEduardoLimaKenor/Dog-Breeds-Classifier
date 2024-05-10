@@ -77,6 +77,7 @@ São 28 imagens da Charlote uma cachorra da raça Shih-tzu, e 10 imagens da Arus
 
 ![image](https://github.com/VitorEduardoLimaKenor/Dog-Breeds-Classifier/assets/139798373/d9133961-70b1-4181-a657-0c4df1589d18)
 
-
-
+# Sugestões para futuras melhorias
+Aumentar o dataset e equilibrar a quantidade de imagens para cada classe. O modelo foi treinado apenas com 30 épocas por falta de poder computacional,
+então ao treinar com mais épocas o resultado pode ser superior. Testar outros modelos, ao longo do projeto só foram utilizados os modelos VGG16, Xception e InceptionV3.
 
