@@ -43,7 +43,7 @@ surgiu a necessidade de se adcionar mais imagens. Então, com ajuda de uma exten
 O dataset depois dessas alterações finalizou com `16 raças de cães e 5035 imagens no total`.
 
 # Treinamento do modelo 
-No `primeiro teste`, foi utilizado a primeira versão do dataset que contava com `15 raças de cães e com um total de 2649 imagens`. 
+No `início do projeto`, foi utilizado a primeira versão do dataset que contava com `15 raças de cães e com um total de 2649 imagens`. 
 Ao utilizar uma função do TensorFlow para criar um conjunto de dados de imagens a partir do diretório do dataset, as imagens já 
 são redimensionadas e separadas em lotes. Nessa primeira etapa o único pré processamento das imagens foi a normalização. Depois
 da normalização o conjunto de dados foi separado em treinamento, validação e teste. Por fim, ao utilizar transferência de aprendizado
@@ -52,8 +52,11 @@ Matriz de confusão:
 
 ![image](https://github.com/VitorEduardoLimaKenor/Dog-Breeds-Classifier/assets/139798373/163a3476-d3a5-4a65-afdc-dc6966dc648a)
 
-
-
+Ao colocar esse primeiro modelo em ação com imagens coletadas atráves do celular o resultado decaiu bastante. Para conseguir
+melhores resultados com as imagens do cotidiano, foi adicionado mais imagens ao dataset. Além de aumentar o dataset, foi utilizado data argumentation
+na base de dados de treinamento para melhorar a capacidade de generalização do modelo. Depois desses ajustes, restou aplicar transferência de aprendizado.
+O modelo `VGG16` teve um resultado de `92% de precisão no conjunto de treinamento, 77% em validação e 74% em teste`. Já o `Xception` teve `93% em treinamento, 95% em validação e 93% em teste`.
+E o modelo `InceptionV3` com o melhor resultado teve `92% em treinamento, 96% em validação e 95% em teste`.
 
 
 
